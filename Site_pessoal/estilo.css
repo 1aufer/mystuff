@@ -1,0 +1,40 @@
+/* styles.css */
+.imagem-container {
+    display: inline-table;
+    width: 200px; /* Largura inicial da imagem */
+    height: 200px; /* Altura inicial da imagem */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-bottom: 50px;
+
+}
+
+.imagem-container:hover {
+    transform: scale(1.2); /* Aumenta a escala da imagem em 20% no hover */
+}
+.logo{
+    display: inline-table;
+    width: 40px; /* Largura inicial da imagem */
+    height: 40px; /* Altura inicial da imagem */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+    margin-left: 475px;
+
+}
+
+.logo:hover {
+    transform: scale(1.2); /* Aumenta a escala da imagem em 20% no hover */
+}
+.logo1 {
+    display: inline-table;
+    width: 40px; /* Largura inicial da imagem */
+    height: 40px; /* Altura inicial da imagem */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+    margin-left: 70px;
+
+}
+
+.logo1:hover {
+    transform: scale(1.2); /* Aumenta a escala da imagem em 20% no hover */
+}
+
